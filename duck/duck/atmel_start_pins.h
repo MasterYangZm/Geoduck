@@ -1,0 +1,73 @@
+/*
+ * Code generated from Atmel Start.
+ *
+ * This file will be overwritten when reconfiguring your Atmel Start project.
+ * Please copy examples or other code you want to keep to a separate file
+ * to avoid losing it when reconfiguring.
+ */
+#ifndef ATMEL_START_PINS_H_INCLUDED
+#define ATMEL_START_PINS_H_INCLUDED
+
+#include <hal_gpio.h>
+
+// SAMD21 has 8 pin functions
+
+#define GPIO_PIN_FUNCTION_A 0
+#define GPIO_PIN_FUNCTION_B 1
+#define GPIO_PIN_FUNCTION_C 2
+#define GPIO_PIN_FUNCTION_D 3
+#define GPIO_PIN_FUNCTION_E 4
+#define GPIO_PIN_FUNCTION_F 5
+#define GPIO_PIN_FUNCTION_G 6
+#define GPIO_PIN_FUNCTION_H 7
+
+#define MOTOR_VREF GPIO(GPIO_PORTA, 2)
+#define VBAT_MON GPIO(GPIO_PORTA, 3)
+#define MOTOR_IMON GPIO(GPIO_PORTA, 4)
+#define BUTTON GPIO(GPIO_PORTA, 5)
+#define TAIL_LED GPIO(GPIO_PORTA, 6)
+#define SERVO_PWM GPIO(GPIO_PORTA, 7)
+#define NAV_SDA GPIO(GPIO_PORTA, 8)
+#define NAV_SCL GPIO(GPIO_PORTA, 9)
+#define NAV_TxD GPIO(GPIO_PORTA, 10)
+#define NAV_RxD GPIO(GPIO_PORTA, 11)
+#define MISO GPIO(GPIO_PORTA, 12)
+#define uSD_CS GPIO(GPIO_PORTA, 13)
+#define LCD_BACKLIGHT_PWM GPIO(GPIO_PORTA, 14)
+#define LCD_CONTRAST_PWM GPIO(GPIO_PORTA, 15)
+#define MOTOR_IN1 GPIO(GPIO_PORTA, 16)
+#define MOTOR_IN2 GPIO(GPIO_PORTA, 17)
+#define MOTOR_SLEEP GPIO(GPIO_PORTA, 18)
+#define MOTOR_MODE GPIO(GPIO_PORTA, 19)
+#define LED_GREEN GPIO(GPIO_PORTA, 20)
+#define uSD_CD GPIO(GPIO_PORTA, 21)
+#define SDA GPIO(GPIO_PORTA, 22)
+#define SCL GPIO(GPIO_PORTA, 23)
+#define USB_DM GPIO(GPIO_PORTA, 24)
+#define USB_DP GPIO(GPIO_PORTA, 25)
+#define uSD_PWREN GPIO(GPIO_PORTA, 27)
+#define LCD_PWREN GPIO(GPIO_PORTA, 28)
+#define MOTOR_MOSI GPIO(GPIO_PORTB, 0)
+#define MOTOR_SCK GPIO(GPIO_PORTB, 1)
+#define NAV_PPS GPIO(GPIO_PORTB, 2)
+#define LED_RED GPIO(GPIO_PORTB, 3)
+#define UI_BUTTON1 GPIO(GPIO_PORTB, 4)
+#define UI_BUTTON2 GPIO(GPIO_PORTB, 5)
+#define UI_BUTTON3 GPIO(GPIO_PORTB, 6)
+#define LCD_RS GPIO(GPIO_PORTB, 7)
+#define LCD_E GPIO(GPIO_PORTB, 8)
+#define LCD_RW GPIO(GPIO_PORTB, 9)
+#define MOSI GPIO(GPIO_PORTB, 10)
+#define SCK GPIO(GPIO_PORTB, 11)
+#define LCD_DB4 GPIO(GPIO_PORTB, 12)
+#define LCD_DB5 GPIO(GPIO_PORTB, 13)
+#define LCD_DB6 GPIO(GPIO_PORTB, 14)
+#define LCD_DB7 GPIO(GPIO_PORTB, 15)
+#define MOTOR_FAULT GPIO(GPIO_PORTB, 16)
+#define MOTOR_WDFLT GPIO(GPIO_PORTB, 17)
+#define MOTOR_PWREN GPIO(GPIO_PORTB, 22)
+#define SERVO_PWREN GPIO(GPIO_PORTB, 23)
+#define MOTOR_MISO GPIO(GPIO_PORTB, 30)
+#define MOTOR_CS GPIO(GPIO_PORTB, 31)
+
+#endif // ATMEL_START_PINS_H_INCLUDED
